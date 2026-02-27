@@ -45,20 +45,43 @@
 - [Node.js](https://nodejs.org/) & NPM
 - [Wails CLI](https://wails.io/docs/gettingstarted/installation)
 
-### Installation
-1. Clone the repository:
+### 🛠️ Build & Development
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/renovo.git
    cd renovo
    ```
-2. Build the application:
+
+2. **Run in development mode**:
    ```bash
-   wails build
+   wails dev
    ```
-3. Run the application:
-   ```bash
-   ./build/bin/renovo
-   ```
+
+3. **Build target binaries**:
+
+#### 🍎 macOS
+```bash
+# Creates a standalone .app bundle
+wails build
+
+# For both Intel and Apple Silicon
+wails build -platform darwin/universal
+```
+*Output location: `build/bin/renovo.app`*
+
+#### 🪟 Windows
+```bash
+# Creates a standalone .exe file
+wails build
+```
+*Output location: `build/bin/renovo.exe`*
+
+#### 🐧 Linux
+```bash
+wails build
+```
+*Output location: `build/bin/renovo`*
 
 ## 🛠️ Tech Stack
 - **Backend**: Go (Golang)
@@ -81,5 +104,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-<p align="center">Built with ♥ for the vibe coding community.</p>

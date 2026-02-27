@@ -633,7 +633,8 @@ select:focus {
 
 /* Add Rule Buttons */
 .add-rule-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 6px;
 }
 
