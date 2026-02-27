@@ -70,6 +70,12 @@ wails build -platform darwin/universal
 ```
 *Output location: `build/bin/renovo.app`*
 
+**Create DMG Installer**:
+```bash
+./scripts/build-dmg.sh
+```
+*Output location: `build/dist/Renovo-Installer.dmg` (Requires `create-dmg` tool)*
+
 #### 🪟 Windows
 ```bash
 # Creates a standalone .exe file
