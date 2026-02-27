@@ -2,6 +2,12 @@
   "$schema": "https://wails.io/schemas/config.v2.json",
   "name": "renovo",
   "outputfilename": "renovo",
+  "info": {
+    "productName": "Renovo",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright © 2024 KhiemTrung",
+    "comments": "Premium Batch File Processor"
+  },
   "frontend:install": "npm install",
   "frontend:build": "npm run build",
   "frontend:dev:watcher": "npm run dev",
