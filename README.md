@@ -2,7 +2,7 @@
 
 **Renovo** is a premium, open-source batch file processor built with **Go (Wails)** and **React (Vite)**. It combines the raw power of the Go standard library with a high-performance, aesthetically pleasing UI designed for production workflows.
 
-![Renovo Preview](https://via.placeholder.com/1280x800/0f172a/f1f5f9?text=Renovo+-+Premium+Batch+Processor)
+![Renovo Icon](./build/appicon.png)
 
 ## ✨ Features
 
@@ -99,6 +99,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## ☕ Support
+
+If you find this project helpful and want to support its development, you can buy me a coffee!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/khiemtrung)
 
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
